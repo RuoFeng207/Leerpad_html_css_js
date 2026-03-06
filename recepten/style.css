@@ -1,0 +1,70 @@
+body {
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    background-color: #26e600;
+    overflow: hidden;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    background-color: #75dda4;
+}
+
+
+#title{
+    font-size: 36px;
+    line-height: 36px;
+}
+#p1{
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.Ingredinëten li{
+    margin-bottom: 10px;
+}
+
+.bereiding li{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 32px;
+    line-height: 32px;
+}
+
+img {
+    width: 360px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.content-block{
+    line-height: 40px;
+}
+.tip{
+    background-color: #def6ed;
+    border: black solid 2px;
+    border-radius: 4px;
+    text-align: center;
+}

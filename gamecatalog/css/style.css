@@ -153,3 +153,8 @@ h3 {
 .review-text {
     margin-left: 18px;
 }
+footer{
+    margin-top: 1%;
+    background-color: var(--secondary_color);
+    padding: 5px;
+}

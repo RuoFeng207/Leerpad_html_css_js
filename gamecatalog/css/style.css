@@ -21,9 +21,8 @@
 
 
 :root.pokemon {
-
-    --main_coler: #67301f ;
-    --text_color:#eae6dd;
+    --main_coler: #67301f;
+    --text_color: #eae6dd;
     --buttons: #b9672f;
     --secondary_color: #457b40;
     --third_color: #82b25d;
@@ -37,9 +36,9 @@
 
 body {
     background-color: var(--main_coler);
-    font-family: Arial, Helvetica, sans-serif;
     font-family: sans-serif;
     color: var(--text_color);
+    padding-bottom: 2%;
 }
 
 .container {
@@ -146,7 +145,6 @@ h3 {
 }
 
 /* review */
-
 .review ol {
     padding-left: 0;
     list-style-position: inside;
@@ -155,8 +153,13 @@ h3 {
 .review-text {
     margin-left: 18px;
 }
-footer{
+
+footer {
     margin-top: 1%;
     background-color: var(--secondary_color);
     padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0
 }

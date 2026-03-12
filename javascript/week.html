@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Week</h1>
+    <h2>De dagen van de week</h2>
+    <div id="week"></div>
+    <h2>Werk week is</h2>
+    <div id="werk_week"></div>
+    <h2>Weekend is</h2>
+    <div id="weekend"></div>
+    <h2>De dagen achterstevoren</h2>
+    <div id="R_week"></div>
+    <h2>De werk week achterstevoren</h2>
+    <div id="R_werk_week"></div>
+    <h2>Het weekend achterstevoren</h2>
+    <div id="R_weekend"></div>
+
+
+</body>
+
+</html>
+
+<script>
+    week = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"];
+    document.getElementById("week").innerHTML = week;
+    let werk_week = week.slice(0, 5);
+    let weekend = week.slice(5, 7);
+    // reverse
+    let R_week = week.reverse();
+    let R_werk_week = werk_week.reverse();
+    let R_weekend = weekend.reverse();
+
+    document.getElementById("werk_week").innerHTML = werk_week;
+    document.getElementById("weekend").innerHTML = weekend;
+    // reverse
+    document.getElementById("R_week").innerHTML =R_week;
+    document.getElementById("R_werk_week").innerHTML =R_werk_week;
+    document.getElementById("R_weekend").innerHTML =R_weekend; 
+
+    
+</script>

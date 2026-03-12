@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>namen</title>
+</head>
+
+<body>
+
+    <div id="naam_array"></div>
+
+    <script>
+
+        let vraag = true;
+        let list = [];
+        let number;
+
+        while (vraag) {
+            number = Number(prompt("Hoeveel namen wilt u in de array stoppen?"));
+            vraag = false;
+        }
+
+        for (let i = 0; i < number; i++) {
+
+            let name = prompt("Voer naam in:");
+            list.push(name);
+
+        }
+
+        document.getElementById("naam_array").innerHTML = list.join(", ");
+
+    </script>
+
+</body>
+
+</html>
